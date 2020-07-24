@@ -2,7 +2,6 @@
  Get the daily global solar irradiance by web scrapping
 ---------------------------------------------------------------------------------------------
 This program allows to obtain the daily global radiation of the sun by web scrapping. 
----------------------------------------------------------------------------------------------
 Like all crawling programs, after receiving the answer to the query in .json format, it is necessary to analyze the interesting data and present it to the user. It should be noted that web scrapping is not an offence in itself. 
 > Disclaimer: The data collected is public and was obtained with a traditional get request. However, it is what is done with the collected data that can be unethical or even illegal.\n
 ### Here are the fields used:
