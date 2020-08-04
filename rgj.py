@@ -33,7 +33,7 @@ class Rgj(object):
 			self.dates.append(self.experimental_ls_5[i].split('</th>')[0])
 
 		for i in range(7):
-			self.results.append("[*] {} => {} [J/cm2] : {}".format(self.dates[i], self.rayonnements_globaux_journaliers[i], self.rayonnements_globaux_journaliers[i+7]))
+			self.results.append(html.unescape("[*] {} => {} [J/cm2] : {}".format(self.dates[i], self.rayonnements_globaux_journaliers[i], self.rayonnements_globaux_journaliers[i+7])))
 
 		#print("\n*** Valeurs obtenues en temps réel sur le site du Service Pédologique de Belgique ASBL : https://www.bdb.be ***")
 	def get_results(self):
